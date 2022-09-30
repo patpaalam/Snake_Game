@@ -24,9 +24,22 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <title>React App</title>
   </head>
   <body>
     <div id="root"></div>
+    <!-- Load React. -->
+  <script src="https://unpkg.com/react/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom/umd/react-dom.development.js" crossorigin></script>
+  
+  <!-- Load our React component. -->
+
+  <script src="App.js" defer type="text/babel"></script>
+  <script src="Food.js" defer type="text/babel"></script>
+  <script src="Snake.js" defer type="text/babel"></script>
+  <script src="index.js" defer type="text/babel"></script>
+  <script src="reportWebVitals.js" defer type="text/babel"></script>
+  <script src="setupTests.js" defer type="text/babel"></script>
   </body>
 </html>
